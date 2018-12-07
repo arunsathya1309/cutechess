@@ -14,6 +14,7 @@ SOURCES += $$PWD/board.cpp \
     $$PWD/extinctionboard.cpp \
     $$PWD/gryphonboard.cpp \
     $$PWD/threekingsboard.cpp \
+    $$PWD/jesonmorboard.cpp \
     $$PWD/kingofthehillboard.cpp \
     $$PWD/hordeboard.cpp \
     $$PWD/embassyboard.cpp \
@@ -34,6 +35,7 @@ SOURCES += $$PWD/board.cpp \
     $$PWD/antiboard.cpp \
     $$PWD/giveawayboard.cpp \
     $$PWD/suicideboard.cpp \
+    $$PWD/codrusboard.cpp \
     $$PWD/gothicboard.cpp \
     $$PWD/grandboard.cpp \
     $$PWD/crazyhouseboard.cpp \
@@ -49,10 +51,13 @@ SOURCES += $$PWD/board.cpp \
     $$PWD/aseanboard.cpp \
     $$PWD/aiwokboard.cpp \
     $$PWD/sittuyinboard.cpp \
+    $$PWD/rifleboard.cpp \
     $$PWD/losalamosboard.cpp \
     $$PWD/almostboard.cpp \
     $$PWD/amazonboard.cpp \
     $$PWD/chigorinboard.cpp \
+    $$PWD/hoppelpoppelboard.cpp \
+    $$PWD/placementboard.cpp \
     $$PWD/boardfactory.cpp \
     $$PWD/boardtransition.cpp \
     $$PWD/syzygytablebase.cpp
@@ -73,6 +78,7 @@ HEADERS += $$PWD/board.h \
     $$PWD/extinctionboard.h \
     $$PWD/gryphonboard.h \
     $$PWD/threekingsboard.h \
+    $$PWD/jesonmorboard.h \
     $$PWD/kingofthehillboard.h \
     $$PWD/hordeboard.h \
     $$PWD/embassyboard.h \
@@ -93,6 +99,7 @@ HEADERS += $$PWD/board.h \
     $$PWD/antiboard.h \
     $$PWD/giveawayboard.h \
     $$PWD/suicideboard.h \
+    $$PWD/codrusboard.h \
     $$PWD/gothicboard.h \
     $$PWD/grandboard.h \
     $$PWD/crazyhouseboard.h \
@@ -108,10 +115,13 @@ HEADERS += $$PWD/board.h \
     $$PWD/aseanboard.h \
     $$PWD/aiwokboard.h \
     $$PWD/sittuyinboard.h \
+    $$PWD/rifleboard.h \
     $$PWD/losalamosboard.h \
     $$PWD/almostboard.h \
     $$PWD/amazonboard.h \
     $$PWD/chigorinboard.h \
+    $$PWD/hoppelpoppelboard.h \
+    $$PWD/placementboard.h \
     $$PWD/boardfactory.h \
     $$PWD/boardtransition.h \
     $$PWD/syzygytablebase.h

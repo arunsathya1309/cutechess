@@ -31,6 +31,7 @@
 #include "checklessboard.h"
 #include "chessgiboard.h"
 #include "chigorinboard.h"
+#include "codrusboard.h"
 #include "coregalboard.h"
 #include "courierboard.h"
 #include "crazyhouseboard.h"
@@ -42,8 +43,10 @@
 #include "grandboard.h"
 #include "gridboard.h"
 #include "gryphonboard.h"
+#include "hoppelpoppelboard.h"
 #include "hordeboard.h"
 #include "janusboard.h"
+#include "jesonmorboard.h"
 #include "kingofthehillboard.h"
 #include "knightmateboard.h"
 #include "loopboard.h"
@@ -53,8 +56,10 @@
 #include "makrukboard.h"
 #include "modernboard.h"
 #include "oukboard.h"
+#include "placementboard.h"
 #include "pocketknightboard.h"
 #include "racingkingsboard.h"
+#include "rifleboard.h"
 #include "seirawanboard.h"
 #include "shatranjboard.h"
 #include "sittuyinboard.h"
@@ -85,6 +90,7 @@ REGISTER_BOARD(ChecklessBoard, "checkless")
 REGISTER_BOARD(ChessgiBoard, "chessgi")
 REGISTER_BOARD(ChigorinBoard, "chigorin")
 REGISTER_BOARD(CircularGryphonBoard, "circulargryphon")
+REGISTER_BOARD(CodrusBoard, "codrus")
 REGISTER_BOARD(CoRegalBoard, "coregal")
 REGISTER_BOARD(CourierBoard, "courier")
 REGISTER_BOARD(CrazyhouseBoard, "crazyhouse")
@@ -99,8 +105,10 @@ REGISTER_BOARD(GrandBoard, "grand")
 REGISTER_BOARD(GridBoard, "grid")
 REGISTER_BOARD(BerolinaGridBoard, "gridolina")
 REGISTER_BOARD(GryphonBoard, "gryphon")
+REGISTER_BOARD(HoppelPoppelBoard, "hoppelpoppel")
 REGISTER_BOARD(HordeBoard, "horde")
 REGISTER_BOARD(JanusBoard, "janus")
+REGISTER_BOARD(JesonMorBoard, "jesonmor")
 REGISTER_BOARD(KarOukBoard,"karouk")
 REGISTER_BOARD(KingOfTheHillBoard, "kingofthehill")
 REGISTER_BOARD(KnightMateBoard, "knightmate")
@@ -109,10 +117,14 @@ REGISTER_BOARD(LosAlamosBoard, "losalamos")
 REGISTER_BOARD(LosersBoard, "losers")
 REGISTER_BOARD(MakrukBoard, "makruk")
 REGISTER_BOARD(ModernBoard, "modern")
+REGISTER_BOARD(NewZealandBoard, "newzealand")
+REGISTER_BOARD(PlacementBoard, "placement")
 REGISTER_BOARD(PocketKnightBoard, "pocketknight")
 REGISTER_BOARD(RacingKingsBoard, "racingkings")
+REGISTER_BOARD(RifleBoard, "rifle")
 REGISTER_BOARD(SeirawanBoard, "seirawan")
 REGISTER_BOARD(ShatranjBoard, "shatranj")
+REGISTER_BOARD(ShootBoard, "shoot")
 REGISTER_BOARD(SimplifiedGryphonBoard, "simplifiedgryphon")
 REGISTER_BOARD(SittuyinBoard, "sittuyin")
 REGISTER_BOARD(SlippedGridBoard, "slippedgrid")

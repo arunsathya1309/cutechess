@@ -27,11 +27,12 @@ Options:
 			'chancellor': Chancellor Chess (9x9)
 			'changeover': Change-Over Chess
 			'checkless': Checkless Chess
-			'courier': Courier Chess
 			'chessgi': Chessgi (Drop Chess)
 			'chigorin': Chigorin Chess
 			'circulargryphon': Circular Gryphon Chess
+			'codrus': Game of Codrus (Losing Chess variant)
 			'coregal': Co-regal Chess
+			'courier': Courier Chess
 			'crazyhouse': Crazyhouse (Drop Chess)
 			'discplacedgrid': Displaced Grid Chess
 			'embassy': Embassy Chess
@@ -43,8 +44,10 @@ Options:
 			'grid': Grid Chess
 			'gridolina': Berolina Grid Chess
 			'gryphon': Gryphon Chess
+			'hoppelpoppel': Hoppel-Poppel (has N/B hybrids)
 			'horde': Horde Chess (v2)
 			'janus': Janus Chess
+			'jesonmor': Jeson Mör
 			'karouk': Kar Ouk (One-check Ouk)
 			'kinglet': Kinglet Chess
 			'kingofthehill': King of the Hill Chess
@@ -54,10 +57,14 @@ Options:
 			'losers': Loser's Chess
 			'makruk': Makruk (Thai Chess)
 			'modern': Modern Chess (9x9)
+			'newzealand': New Zealand Chess (has N/R hybrids)
+			'placement': Placement Chess
 			'pocketknight': Pocket Knight Chess
 			'racingkings': Racing Kings Chess
+			'rifle': Rifle Chess
 			'seirawan': S-Chess (Seirawan Chess)
 			'shatranj': Shatranj
+			'shoot': Shoot Chess
 			'slippedgrid': Slipped Grid Chess
 			'simplifiedgryphon': Simplified Gryphon Chess
 			'sittuyin': Sittuyin (Myanmar Chess)
@@ -72,7 +79,8 @@ Options:
 			Adjudicate the game as a draw if the score of both
 			engines is within SCORE centipawns from zero for at
 			least COUNT consecutive moves, and at least NUMBER full
-			moves have been played.
+			moves have been played. Captures and pawn moves will
+			reset the counters.
   -resign movecount=COUNT score=SCORE
 			Adjudicate the game as a loss if an engine's score is
 			at least SCORE centipawns below zero for at least COUNT
